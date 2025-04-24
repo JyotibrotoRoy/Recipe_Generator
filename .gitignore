@@ -2,3 +2,4 @@ node_modules/
 node_modules/
 backend/data/RAW_recipes.csv
 backend/data/RAW_recipes.json
+backend/data/recipes.csv
