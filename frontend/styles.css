@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #111111;
+    font-family: 'Consolas', monospace;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container {
+    width: 90%;
+    max-width: 900px;
+}
+
+.title-box {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    border: 0px solid #999;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    background-color: #85858518;
+    font-size: 1.3em;
+    transition: all 0.3s ease, transform 0.5s ease;
+}
+.title-box:hover {
+    box-shadow: 0 0 15px 5px #44074d; 
+    background-color: #6a0d79; 
+    transform: scale(1.05);
+}
+
+.content-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.ingredients-box {
+    width: 35%;
+    background-color: #85858518;
+    padding: 20px;
+    height: 300px;
+    border-radius: 20px;
+    border: 0px solid #999;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    font-size: 1.1em;
+    transition: all 0.3s ease, transform 0.5s ease;
+}
+.ingredients-box:hover {
+    box-shadow: 0 0 15px 5px #44074d; 
+    background-color: #9b41a8; 
+    transform: scale(1.05);
+}
+
+.recipe-box {
+    width: 65%;
+    background-color: #85858518;
+    padding: 20px;
+    height: 300px;
+    border-radius: 20px;
+    border: 0px solid #7e57c2;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    font-size: 1.1em;
+    transition: all 0.3s ease, transform 0.5s ease;
+}
+.recipe-box:hover {
+    box-shadow: 0 0 15px 5px #44074d; 
+    background-color: #e8b6f0; 
+    transform: scale(1.05);
+    color: #111111;
+}
